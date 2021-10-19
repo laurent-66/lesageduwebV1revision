@@ -1,0 +1,103 @@
+[
+    {
+        "name": "accueil",
+        "path": "/",
+        "_controller":"Application\\Controllers\\DefaultController",
+        "_method": "getHomePage",
+        "_methods": ["GET"]
+    },
+    {
+        "name": "inscription",
+        "path": "/inscription",
+        "_controller":"Application\\Controllers\\SecurityController",
+        "_method": "register",
+        "_methods": ["GET", "POST"]
+    },
+    {
+        "name": "connexion",
+        "path": "/se-connecter",
+        "_controller":"Application\\Controllers\\SecurityController",
+        "_method": "login",
+        "_methods": ["GET", "POST"]
+    },
+    {
+        "name": "deconnexion",
+        "path": "/deconnecter",
+        "_controller":"Application\\Controllers\\SecurityController",
+        "_method": "disconnect",
+        "_methods": ["GET"]
+    },
+    {
+        "name": "blogs",
+        "path": "/blogs",
+        "_controller":"Application\\Controllers\\BlogPostController",
+        "_method": "getAllBlogs",
+        "_methods": ["GET"]
+    },
+    {
+        "name": "blog",
+        "path": "/blogs/{id}",
+        "_controller":"Application\\Controllers\\BlogPostController",
+        "_method": "getBlog",
+        "_methods": ["GET", "POST"]
+    },
+    {
+        "name": "dashboard",
+        "path": "/blogs/admin/dashboard",
+        "_controller":"Application\\Controllers\\AdminController",
+        "_method": "dashboard",
+        "_methods": ["GET", "POST"]
+    },
+    {
+        "name": "dashboard",
+        "path": "/blogs/admin/dashboard",
+        "_controller":"Application\\Controllers\\AdminController",
+        "_method": "dashboard",
+        "_methods": ["GET", "POST"]
+    },
+    {
+        "name": "newBlog",
+        "path": "/blogs/admin/new",
+        "_controller":"Application\\Controllers\\AdminController",
+
+        "_method": "createBlog",
+        "_methods": ["GET", "POST"]
+    },
+    {
+        "name": "updateBlog",
+        "path": "/blogs/admin/{id}/edit",
+        "_controller":"Application\\Controllers\\AdminController",
+        "_method": "updateBlog",
+        "_methods": ["GET", "POST"]
+    },
+    {
+        "name": "deleteBlog",
+        "path": "/blogs/admin/{id}/delete",
+        "_controller":"Application\\Controllers\\AdminController",
+        "_method": "deleteBlog",
+        "_methods": ["GET", "DELETE"]
+    },
+    {
+        "name": "approveComment",
+        "path": "/blog/admin/approveComment/{blogId}/{id}",
+        "_controller":"Application\\Controllers\\AdminController",
+        "_method": "approveComment",
+
+        "_methods": ["GET"]
+    },
+    {
+        "name": "deleteComment",
+        "path": "/blog/admin/deleteComment/{blogId}/{id}",
+        "_controller":"Application\\Controllers\\AdminController",
+        "_method": "deleteComment",
+        "_methods": ["GET"]
+    },
+    {
+        "name": "reportComment",
+        "path": "/blog/reportComment/{blogId}/{id}",
+        "_controller":"Application\\Controllers\\AdminController",
+        "_method": "reportComment",
+        "_methods": ["GET"]
+
+    }
+]
