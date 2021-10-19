@@ -56,7 +56,7 @@ class __TwigTemplate_dcd3dda1587c84fd33b363639cc3c6dd8eb4459f865be16594c01ce1a5b
         $macros = $this->macros;
         echo " 
 
-<div class=\"container-fluid mx-0 my-0 px-0 mx-0\">
+<div class=\"container-fluid mx-0 my-0 px-0 mx-0\" id=\"skills\">
       <div class=\"heading\">
           <h2>Front end</h2>
       </div>
@@ -138,7 +138,7 @@ class __TwigTemplate_dcd3dda1587c84fd33b363639cc3c6dd8eb4459f865be16594c01ce1a5b
 {% block title %}Compétences{% endblock %}
 {% block body %} 
 
-<div class=\"container-fluid mx-0 my-0 px-0 mx-0\">
+<div class=\"container-fluid mx-0 my-0 px-0 mx-0\" id=\"skills\">
       <div class=\"heading\">
           <h2>Front end</h2>
       </div>

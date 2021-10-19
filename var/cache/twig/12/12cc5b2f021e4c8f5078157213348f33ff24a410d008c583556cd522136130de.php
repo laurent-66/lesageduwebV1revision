@@ -109,10 +109,8 @@ class __TwigTemplate_367ddb41bad1aafbe5b87bc358ce507c3370390c9dc27527d94bcf2cc29
                             <div id=\"logo_linkedin\"><a href=\"https://github.com/laurent-66/my_first_blog_php\" target=\"_blank\"><img src=\"/images/GitHub-Mark-Light-64px.png\"/></a></div>
                         </div>
                     </div>
-                    <div class=\"row m-0 px-0 py-3\" id=\"connexionAdmin\">
-
-                        <a href=\"/blogs/admin/dashboard\">Administration blogs</a>
-
+                    <div class=\"row m-0 px-0 py-3\" id=\"mail\">
+                        <p>laurent.lesage51@gmail.com</p>
                     </div>
                 </div>
             </footer>
@@ -150,7 +148,7 @@ class __TwigTemplate_367ddb41bad1aafbe5b87bc358ce507c3370390c9dc27527d94bcf2cc29
 
     public function getDebugInfo()
     {
-        return array (  142 => 48,  138 => 47,  132 => 6,  92 => 50,  90 => 47,  46 => 6,  39 => 1,);
+        return array (  140 => 48,  136 => 47,  130 => 6,  92 => 50,  90 => 47,  46 => 6,  39 => 1,);
     }
 
     public function getSourceContext()
@@ -224,10 +222,8 @@ class __TwigTemplate_367ddb41bad1aafbe5b87bc358ce507c3370390c9dc27527d94bcf2cc29
                             <div id=\"logo_linkedin\"><a href=\"https://github.com/laurent-66/my_first_blog_php\" target=\"_blank\"><img src=\"/images/GitHub-Mark-Light-64px.png\"/></a></div>
                         </div>
                     </div>
-                    <div class=\"row m-0 px-0 py-3\" id=\"connexionAdmin\">
-
-                        <a href=\"/blogs/admin/dashboard\">Administration blogs</a>
-
+                    <div class=\"row m-0 px-0 py-3\" id=\"mail\">
+                        <p>laurent.lesage51@gmail.com</p>
                     </div>
                 </div>
             </footer>

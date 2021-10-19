@@ -62,3 +62,8 @@ section .heading h2
     margin-top:20px;
     color:#fff;
 }
+#mail{
+    display:block;
+    color: white;
+    text-align: center;
+}
