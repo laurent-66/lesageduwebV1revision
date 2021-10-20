@@ -2,7 +2,13 @@
 @import "./header.css";
 @import "./footer.css";
 @import "./accueil.css"; 
+@import "./about.css";
+@import "./training.css";
+@import "./skills.css";
 
-* {
-    box-sizing: border-box; 
-}   
+.divider{
+    width:10%;
+    height:5px;
+    background-color: #02ADF0;
+    margin: 5px auto;
+}

@@ -78,6 +78,11 @@ class __TwigTemplate_367ddb41bad1aafbe5b87bc358ce507c3370390c9dc27527d94bcf2cc29
                                 <li class=\"menu-item\">
                                     <a class=\"item nav-link\" href=\"/a_propos\">A propos</a>
                                 </li>
+
+                                <li class=\"menu-item\">
+                                    <a class=\"item nav-link\" href=\"/blog\">Blog</a>
+                                </li>
+
                             </ul>
                         </div>
                     </div>
@@ -86,9 +91,9 @@ class __TwigTemplate_367ddb41bad1aafbe5b87bc358ce507c3370390c9dc27527d94bcf2cc29
 
 
             ";
-        // line 47
+        // line 52
         $this->displayBlock('body', $context, $blocks);
-        // line 50
+        // line 55
         echo "
 
         <footer class=\"sticky-footer\">
@@ -132,11 +137,11 @@ class __TwigTemplate_367ddb41bad1aafbe5b87bc358ce507c3370390c9dc27527d94bcf2cc29
         $macros = $this->macros;
     }
 
-    // line 47
+    // line 52
     public function block_body($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 48
+        // line 53
         echo "
             ";
     }
@@ -148,7 +153,7 @@ class __TwigTemplate_367ddb41bad1aafbe5b87bc358ce507c3370390c9dc27527d94bcf2cc29
 
     public function getDebugInfo()
     {
-        return array (  140 => 48,  136 => 47,  130 => 6,  92 => 50,  90 => 47,  46 => 6,  39 => 1,);
+        return array (  145 => 53,  141 => 52,  135 => 6,  97 => 55,  95 => 52,  46 => 6,  39 => 1,);
     }
 
     public function getSourceContext()
@@ -192,6 +197,11 @@ class __TwigTemplate_367ddb41bad1aafbe5b87bc358ce507c3370390c9dc27527d94bcf2cc29
                                 <li class=\"menu-item\">
                                     <a class=\"item nav-link\" href=\"/a_propos\">A propos</a>
                                 </li>
+
+                                <li class=\"menu-item\">
+                                    <a class=\"item nav-link\" href=\"/blog\">Blog</a>
+                                </li>
+
                             </ul>
                         </div>
                     </div>

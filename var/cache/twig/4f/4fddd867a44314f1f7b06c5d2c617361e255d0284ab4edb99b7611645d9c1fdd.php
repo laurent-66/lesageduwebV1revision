@@ -56,11 +56,12 @@ class __TwigTemplate_09d7946b96845aa0777e160e597e454b755b45636d8d334c44a2aac19b9
         $macros = $this->macros;
         echo " 
 <div class=\"container-fluid\" id=\"about\">
-    <h2> A propos</h2>
-        <div>
+    <div class=\"container container-about\">
+        <h2> A propos</h2>
+        <div class=\"divider\"></div>
             <h3>Qui suis-je ?</h3>
             <p>Je me présente Laurent LESAGE, j'habite à PERPIGNAN.</p>
-   
+    
             <h3>Ma personnalité</h3>
             <p>Je suis une personne organisée, logique et curieuse. Je suis autonome sur les missions qui me sont confiées.
                 J'aime également travailler en équipe et échanger sur un projet.</p>
@@ -74,10 +75,8 @@ class __TwigTemplate_09d7946b96845aa0777e160e597e454b755b45636d8d334c44a2aac19b9
                 Depuis très longtemps je voulais apprendre à coder, j'ai donc décidé de sauter le pas et faire une reconversion professionnelle en faisant une formation de développeur web.
             </p> 
             <h3>Mon objectif professionnel</h3>
-            <p>J'ai terminé ma formation de développeur web fin juillet 2020 et je souhaiterais intégrer une équipe de développeur.<br>
-            J'aime faire du développement en front comme en back-end et je suis prêt à apprendre de nouveaux langages pour m'ajuster au mieux à la spécificité du poste proposé.</p>
-        </div>
-
+            <p>En alternance en tant que développeur d'application php/symphony, je recherche une entreprise pour terminée ma dernière année de formation.</p>
+    </div>
 </div>
 ";
     }
@@ -105,11 +104,12 @@ class __TwigTemplate_09d7946b96845aa0777e160e597e454b755b45636d8d334c44a2aac19b9
 
 {% block body %} 
 <div class=\"container-fluid\" id=\"about\">
-    <h2> A propos</h2>
-        <div>
+    <div class=\"container container-about\">
+        <h2> A propos</h2>
+        <div class=\"divider\"></div>
             <h3>Qui suis-je ?</h3>
             <p>Je me présente Laurent LESAGE, j'habite à PERPIGNAN.</p>
-   
+    
             <h3>Ma personnalité</h3>
             <p>Je suis une personne organisée, logique et curieuse. Je suis autonome sur les missions qui me sont confiées.
                 J'aime également travailler en équipe et échanger sur un projet.</p>
@@ -123,10 +123,8 @@ class __TwigTemplate_09d7946b96845aa0777e160e597e454b755b45636d8d334c44a2aac19b9
                 Depuis très longtemps je voulais apprendre à coder, j'ai donc décidé de sauter le pas et faire une reconversion professionnelle en faisant une formation de développeur web.
             </p> 
             <h3>Mon objectif professionnel</h3>
-            <p>J'ai terminé ma formation de développeur web fin juillet 2020 et je souhaiterais intégrer une équipe de développeur.<br>
-            J'aime faire du développement en front comme en back-end et je suis prêt à apprendre de nouveaux langages pour m'ajuster au mieux à la spécificité du poste proposé.</p>
-        </div>
-
+            <p>En alternance en tant que développeur d'application php/symphony, je recherche une entreprise pour terminée ma dernière année de formation.</p>
+    </div>
 </div>
 {% endblock %} ", "about.html.twig", "C:\\wamp64\\www\\Site_portfolio_laurent_V1\\templates\\about.html.twig");
     }

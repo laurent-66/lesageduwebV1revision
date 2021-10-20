@@ -28,7 +28,10 @@ class DefaultController extends AbstractController
     {
         return $this->renderHtml('about.html.twig');
     }
-
+    public function getBlogPage(ServerRequestInterface $request, ParametersBag $bag)
+    {
+        return $this->renderHtml('blog.html.twig');
+    }
 
 
 

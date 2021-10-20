@@ -1,7 +1,31 @@
 #skills
 {
 background-color: #E3F4FE;
-    padding:0px;
-    margin:0px;
+}
+.container-skills h2 {
+    color: #02ADF0;
+    text-align: center;
+    padding: 15px 0px 5px 0px;
+}
 
+.container-skills h3 {
+    color: #02ADF0;
+} 
+
+.card-white {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px grey;
+}
+
+.item-logolangage {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.credit-licence-logo p {
+    display:block;
+    font-size: 0.8rem;
+    margin: 0px auto;
 }

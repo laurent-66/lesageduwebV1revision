@@ -1,7 +1,29 @@
 #training
 {
-background-color: #02ADF0;
-    padding:0px;
-    margin:0px;
+    background-color: #E3F4FE;
+}
+
+.container-training h2 {
+    color: #02ADF0;
+    text-align: center;
+    padding: 15px 0px 5px 0px;
+}
+
+.container-training h3 {
+    color: #02ADF0;
+    text-align: center;
+}
+
+.container-training h4 {
+    text-align: center;
+}
+
+.container-training h5 {
+    text-align: center;
+}
+.fa-graduation-cap {
+    display:block;
+    margin: 0px auto;
+    width:100px;
 
 }

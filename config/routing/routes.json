@@ -26,5 +26,12 @@
         "_controller":"Application\\Controllers\\DefaultController",
         "_method": "getAboutPage",
         "_methods": ["GET"]
+    },
+    {
+        "name": "blog",
+        "path": "/blog",
+        "_controller":"Application\\Controllers\\DefaultController",
+        "_method": "getBlogPage",
+        "_methods": ["GET"]
     }
 ]
