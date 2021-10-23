@@ -56,8 +56,13 @@ class __TwigTemplate_00f6a880f6546c91f1beee0cc3254fc0ef381786b45b458d0cce1104342
         $macros = $this->macros;
         echo " 
 <div class=\"container-fluid\" id=\"blog\">
-    <h2> Bientôt le Blog !</h2>
-    <p>Vous y trouverez les articles traitant des différents projet réalisés</p>
+    <div class=\"container container-next-blog\">
+        <h2> Bientôt le Blog !</h2>
+        <div class=\"divider\"></div>
+        <i class=\"fas fa-cogs fa-9x\"></i><br/>
+        <p>Vous y trouverez très prochainement dans cette rubrique des articles traitant des différents projets réalisés.</p>
+        <p>Vous allez pouvoir également vous connecter et y laisser des petits commentaires ;-) </p>
+    </div>
 </div>
 ";
     }
@@ -85,8 +90,13 @@ class __TwigTemplate_00f6a880f6546c91f1beee0cc3254fc0ef381786b45b458d0cce1104342
 
 {% block body %} 
 <div class=\"container-fluid\" id=\"blog\">
-    <h2> Bientôt le Blog !</h2>
-    <p>Vous y trouverez les articles traitant des différents projet réalisés</p>
+    <div class=\"container container-next-blog\">
+        <h2> Bientôt le Blog !</h2>
+        <div class=\"divider\"></div>
+        <i class=\"fas fa-cogs fa-9x\"></i><br/>
+        <p>Vous y trouverez très prochainement dans cette rubrique des articles traitant des différents projets réalisés.</p>
+        <p>Vous allez pouvoir également vous connecter et y laisser des petits commentaires ;-) </p>
+    </div>
 </div>
 {% endblock %} 
 ", "blog.html.twig", "C:\\wamp64\\www\\Site_portfolio_laurent_V1\\templates\\blog.html.twig");

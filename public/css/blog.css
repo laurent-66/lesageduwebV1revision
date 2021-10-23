@@ -1,3 +1,30 @@
 #blog{
     background-color:#E3F4FE;
 }
+
+.container-next-blog
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.container-next-blog h2 {
+    color: #02ADF0;
+
+    padding: 15px 0px 5px 0px;
+}
+
+.container-about h3 {
+    color: #02ADF0;
+}
+
+/*menu écran inférieur à 768px */
+
+@media screen and (max-width: 767px)
+{
+    .fas.fa-cogs.fa-9x {
+        margin-top: 15px;
+    }
+}

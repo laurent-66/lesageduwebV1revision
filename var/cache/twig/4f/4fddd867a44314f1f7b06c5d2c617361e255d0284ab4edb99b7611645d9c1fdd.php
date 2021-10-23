@@ -75,7 +75,7 @@ class __TwigTemplate_09d7946b96845aa0777e160e597e454b755b45636d8d334c44a2aac19b9
                 Depuis très longtemps je voulais apprendre à coder, j'ai donc décidé de sauter le pas et faire une reconversion professionnelle en faisant une formation de développeur web.
             </p> 
             <h3>Mon objectif professionnel</h3>
-            <p>En alternance en tant que développeur d'application php/symphony, je recherche une entreprise pour terminée ma dernière année de formation.</p>
+            <p>Actuellement alternant sur une formation de développeur d'application php/symphony, je recherche une nouvelle entreprise pour m'accueillir et terminer ma dernière année de formation.</p>
     </div>
 </div>
 ";
@@ -123,7 +123,7 @@ class __TwigTemplate_09d7946b96845aa0777e160e597e454b755b45636d8d334c44a2aac19b9
                 Depuis très longtemps je voulais apprendre à coder, j'ai donc décidé de sauter le pas et faire une reconversion professionnelle en faisant une formation de développeur web.
             </p> 
             <h3>Mon objectif professionnel</h3>
-            <p>En alternance en tant que développeur d'application php/symphony, je recherche une entreprise pour terminée ma dernière année de formation.</p>
+            <p>Actuellement alternant sur une formation de développeur d'application php/symphony, je recherche une nouvelle entreprise pour m'accueillir et terminer ma dernière année de formation.</p>
     </div>
 </div>
 {% endblock %} ", "about.html.twig", "C:\\wamp64\\www\\Site_portfolio_laurent_V1\\templates\\about.html.twig");

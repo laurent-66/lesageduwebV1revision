@@ -21,9 +21,25 @@
 .container-training h5 {
     text-align: center;
 }
-.fa-graduation-cap {
+.fas.fa-user-graduate.fa-3x {
     display:block;
     margin: 0px auto;
+    padding-left: 30px;
     width:100px;
+}
 
+.card-education {
+    width: 80%;
+    margin: 15px auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px grey;
+}
+
+/*menu écran inférieur à 768px */
+
+@media screen and (max-width: 767px)
+{
+    .card-education {
+        width: 100%;
+    }
 }

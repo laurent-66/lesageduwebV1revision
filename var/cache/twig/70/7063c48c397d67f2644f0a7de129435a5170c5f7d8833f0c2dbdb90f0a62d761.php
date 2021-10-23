@@ -62,30 +62,28 @@ class __TwigTemplate_352dd26d0046efa8eefe30cc355e6675e08ad63c9340dc003721b8059cd
         </div>
         <div class=\"heading col-sm-12 col-md-6 col-lg-6\">
             <h1>Laurent LESAGE</h1></br>
-            <h3>Développeur web junior fullstack<br /><br /> JavaScript et PHP/Symfony</h3>
-            <p>\"Actuellement j'effectue une formation en alternance <br /> de développeur d'application PHP/symfony
-                        avec Openclassrooms\"</p>
+            <h3>Développeur web junior fullstack<br /><br/> JavaScript et PHP/Symfony</h3>
+            <p>\"Actuellement j'effectue une formation en alternance <br/> 
+            de développeur d'application PHP/symfony avec Openclassrooms <br/>
+            Je suis à la recherche d'une entreprise qui me permettra <br/>
+             de terminer ma dernière année de formation.\"</p>
         </div>
     </div>  
-
     <div class=\"row section2-accueil\">
         <div class=\"container-activite col-sm-12 col-md-6 col-lg-6 col-xl-6 px-0 py-0 mx-0 my-0\">
             <h3>Mes activités complémentaires en entreprise :</h3>  
             <div class=\"activites\">
-      
                 <ul class=\"activite-entreprise\"> 
                     <li>Site web vitrine et e-commerce: CMS wordpress thème AVADA</li>
                     <li>Application front-end: Angular 11.</li> 
-                    <li>Application Back-end: PHP et nestjs</li> 
+                    <li>Application Back-end: nestjs</li> 
                 </ul>
             </div>
         </div>
-        <div class=\"container-activite col-sm-12 col-md-6 col-lg-6 col-xl-6 px-0 py-0 mx-0 my-0\">
+        <div class=\"container-button-cv col-sm-12 col-md-6 col-lg-6 col-xl-6 px-0 py-0 mx-0 my-0\">
             <a href=\"/docs/CV-laurent-Lesage.pdf\" class='button-download' target='blank'>Télécharger CV</a>
         </div>
     </div>
-
-
 </div>
 ";
     }
@@ -119,30 +117,28 @@ class __TwigTemplate_352dd26d0046efa8eefe30cc355e6675e08ad63c9340dc003721b8059cd
         </div>
         <div class=\"heading col-sm-12 col-md-6 col-lg-6\">
             <h1>Laurent LESAGE</h1></br>
-            <h3>Développeur web junior fullstack<br /><br /> JavaScript et PHP/Symfony</h3>
-            <p>\"Actuellement j'effectue une formation en alternance <br /> de développeur d'application PHP/symfony
-                        avec Openclassrooms\"</p>
+            <h3>Développeur web junior fullstack<br /><br/> JavaScript et PHP/Symfony</h3>
+            <p>\"Actuellement j'effectue une formation en alternance <br/> 
+            de développeur d'application PHP/symfony avec Openclassrooms <br/>
+            Je suis à la recherche d'une entreprise qui me permettra <br/>
+             de terminer ma dernière année de formation.\"</p>
         </div>
     </div>  
-
     <div class=\"row section2-accueil\">
         <div class=\"container-activite col-sm-12 col-md-6 col-lg-6 col-xl-6 px-0 py-0 mx-0 my-0\">
             <h3>Mes activités complémentaires en entreprise :</h3>  
             <div class=\"activites\">
-      
                 <ul class=\"activite-entreprise\"> 
                     <li>Site web vitrine et e-commerce: CMS wordpress thème AVADA</li>
                     <li>Application front-end: Angular 11.</li> 
-                    <li>Application Back-end: PHP et nestjs</li> 
+                    <li>Application Back-end: nestjs</li> 
                 </ul>
             </div>
         </div>
-        <div class=\"container-activite col-sm-12 col-md-6 col-lg-6 col-xl-6 px-0 py-0 mx-0 my-0\">
+        <div class=\"container-button-cv col-sm-12 col-md-6 col-lg-6 col-xl-6 px-0 py-0 mx-0 my-0\">
             <a href=\"/docs/CV-laurent-Lesage.pdf\" class='button-download' target='blank'>Télécharger CV</a>
         </div>
     </div>
-
-
 </div>
 {% endblock %} ", "home.html.twig", "C:\\wamp64\\www\\Site_portfolio_laurent_V1\\templates\\home.html.twig");
     }

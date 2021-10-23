@@ -77,6 +77,13 @@
         padding:15px;
     }
 
+    .container-button-cv {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
     .container-activite h3 {
         margin-top: 40px;
         padding-top:15px;

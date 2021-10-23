@@ -5,6 +5,7 @@
 @import "./about.css";
 @import "./training.css";
 @import "./skills.css";
+@import "./blog.css";
 
 .divider{
     width:10%;

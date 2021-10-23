@@ -69,7 +69,9 @@ display:block;
     color:white;
 }
 
-
+.item.nav-link {
+    padding: 0px 15px;
+}
 
 /*menu écran inférieur à 576px */
 

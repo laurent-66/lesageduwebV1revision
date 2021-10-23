@@ -58,44 +58,53 @@ class __TwigTemplate_be0e97cde44e6b1646019d1010ca6c770a97ec5351e68aa67cecc65ca49
 <div class=\"container-fluid\" id=\"training\">
     <div class=\"container container-training\">
         <h2> FORMATIONS</h2>
+        <div class=\"divider\"></div>
             <div class=\"row\">
-                <div class=\"col-md-12\">
-                    <div class=\"bg bg-white border shadow rounded my-4\">
-                        <h5>2020- à aujourd'hui</h5>
-                        <div class=\"row\"><img src=\"images/icon-education.png\" alt=\"icon-education\"></div>
-                        <h3>Openclassrooms</h3>
-                        <h4>Alternance<br /> Certification professionnelle de développeur d'application - PHP/symfony</h4>
+                <div class=\"col-12\">
+                    <div class=\"container card-education bg bg-white px-0\">
+                        <div class=\"card-content py-3 px-3\">
+                            <h5>2020- à aujourd'hui</h5>
+                            <div><i class=\"fas fa-user-graduate fa-3x\"></i></div>
+                            <h3>Openclassrooms</h3>
+                            <h4>Alternance<br /> Certification professionnelle de développeur d'application - PHP/symfony</h4>
+                        </div>
                     </div>
-                </div>
-            </div>
 
+                </div>
+            </div>
             <div class=\"row\">
-                <div class=\"col-md-12\">
-                    <div class=\"bg bg-white border shadow rounded my-4\">
-                        <h5>2019-2020</h5>
-                        <div class=\"row\"><i class=\"fas fa-graduation-cap\"></i></div>
-                        <h3>Centre de Formation ADRAR</h3>
-                        <h4>Titre professionnel développeur web et web mobile</h4>
+                <div class=\"col-12\">
+                    <div class=\"container card-education bg bg-white px-0\">
+                        <div class=\"card-content py-3 px-3\">
+                            <h5>2019-2020</h5>
+                            <div><i class=\"fas fa-user-graduate fa-3x\"></i></div>
+                            <h3>Centre de Formation ADRAR</h3>
+                            <h4>Titre professionnel développeur web et web mobile</h4>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class=\"row\">
-                <div class=\"col-md-12\">
-                    <div class=\"bg bg-white border shadow rounded my-4\">
-                        <h5>1997-1999</h5>
-                        <div class=\"row\"><img src=\"images/icon-education.png\" alt=\"icon-education\"></div>
-                        <h3>Lycée Dhuoda-Nîmes</h3>
-                        <h4>Brevet de Technicien Supérieur en Bâtiment</h4>
+                <div class=\"col-12\">
+                    <div class=\"container card-education bg bg-white px-0\">
+                        <div class=\"card-content py-3 px-3\">
+                            <h5>1997-1999</h5>
+                            <div><i class=\"fas fa-user-graduate fa-3x\"></i></div>
+                            <h3>Lycée Dhuoda-Nîmes</h3>
+                            <h4>Brevet de Technicien Supérieur en Bâtiment</h4>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class=\"row\">
-                <div class=\"col-md-12\">
-                    <div class=\"bg bg-white border shadow rounded my-4\">
-                        <h5>1995-1997</h5>
-                        <div class=\"row\"><img src=\"images/icon-education.png\" alt=\"icon-education\"></div>
-                        <h3>Lycée Ste louise de Marillac</h3>
-                        <h4> Bac STI option Génie Civil</h4>
+            <div class=\"row mb-3\">
+                <div class=\"col-12\">
+                    <div class=\"container card-education bg bg-white px-0\">
+                        <div class=\"card-content py-3 px-3\">
+                            <h5>1995-1997</h5>
+                            <div><i class=\"fas fa-user-graduate fa-3x\"></i></div>
+                            <h3>Lycée Ste louise de Marillac</h3>
+                            <h4> Bac STI option Génie Civil</h4>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -129,44 +138,53 @@ class __TwigTemplate_be0e97cde44e6b1646019d1010ca6c770a97ec5351e68aa67cecc65ca49
 <div class=\"container-fluid\" id=\"training\">
     <div class=\"container container-training\">
         <h2> FORMATIONS</h2>
+        <div class=\"divider\"></div>
             <div class=\"row\">
-                <div class=\"col-md-12\">
-                    <div class=\"bg bg-white border shadow rounded my-4\">
-                        <h5>2020- à aujourd'hui</h5>
-                        <div class=\"row\"><img src=\"images/icon-education.png\" alt=\"icon-education\"></div>
-                        <h3>Openclassrooms</h3>
-                        <h4>Alternance<br /> Certification professionnelle de développeur d'application - PHP/symfony</h4>
+                <div class=\"col-12\">
+                    <div class=\"container card-education bg bg-white px-0\">
+                        <div class=\"card-content py-3 px-3\">
+                            <h5>2020- à aujourd'hui</h5>
+                            <div><i class=\"fas fa-user-graduate fa-3x\"></i></div>
+                            <h3>Openclassrooms</h3>
+                            <h4>Alternance<br /> Certification professionnelle de développeur d'application - PHP/symfony</h4>
+                        </div>
                     </div>
-                </div>
-            </div>
 
+                </div>
+            </div>
             <div class=\"row\">
-                <div class=\"col-md-12\">
-                    <div class=\"bg bg-white border shadow rounded my-4\">
-                        <h5>2019-2020</h5>
-                        <div class=\"row\"><i class=\"fas fa-graduation-cap\"></i></div>
-                        <h3>Centre de Formation ADRAR</h3>
-                        <h4>Titre professionnel développeur web et web mobile</h4>
+                <div class=\"col-12\">
+                    <div class=\"container card-education bg bg-white px-0\">
+                        <div class=\"card-content py-3 px-3\">
+                            <h5>2019-2020</h5>
+                            <div><i class=\"fas fa-user-graduate fa-3x\"></i></div>
+                            <h3>Centre de Formation ADRAR</h3>
+                            <h4>Titre professionnel développeur web et web mobile</h4>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class=\"row\">
-                <div class=\"col-md-12\">
-                    <div class=\"bg bg-white border shadow rounded my-4\">
-                        <h5>1997-1999</h5>
-                        <div class=\"row\"><img src=\"images/icon-education.png\" alt=\"icon-education\"></div>
-                        <h3>Lycée Dhuoda-Nîmes</h3>
-                        <h4>Brevet de Technicien Supérieur en Bâtiment</h4>
+                <div class=\"col-12\">
+                    <div class=\"container card-education bg bg-white px-0\">
+                        <div class=\"card-content py-3 px-3\">
+                            <h5>1997-1999</h5>
+                            <div><i class=\"fas fa-user-graduate fa-3x\"></i></div>
+                            <h3>Lycée Dhuoda-Nîmes</h3>
+                            <h4>Brevet de Technicien Supérieur en Bâtiment</h4>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class=\"row\">
-                <div class=\"col-md-12\">
-                    <div class=\"bg bg-white border shadow rounded my-4\">
-                        <h5>1995-1997</h5>
-                        <div class=\"row\"><img src=\"images/icon-education.png\" alt=\"icon-education\"></div>
-                        <h3>Lycée Ste louise de Marillac</h3>
-                        <h4> Bac STI option Génie Civil</h4>
+            <div class=\"row mb-3\">
+                <div class=\"col-12\">
+                    <div class=\"container card-education bg bg-white px-0\">
+                        <div class=\"card-content py-3 px-3\">
+                            <h5>1995-1997</h5>
+                            <div><i class=\"fas fa-user-graduate fa-3x\"></i></div>
+                            <h3>Lycée Ste louise de Marillac</h3>
+                            <h4> Bac STI option Génie Civil</h4>
+                        </div>
                     </div>
                 </div>
             </div>

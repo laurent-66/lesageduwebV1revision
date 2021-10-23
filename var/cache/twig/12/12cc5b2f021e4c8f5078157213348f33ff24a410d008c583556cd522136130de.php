@@ -111,11 +111,8 @@ class __TwigTemplate_367ddb41bad1aafbe5b87bc358ce507c3370390c9dc27527d94bcf2cc29
                         </div>
 
                         <div id=\"block_linkedin\" class=\"col-12 col-sm-12 col-md-4 my-2 px-0\">
-                            <div id=\"logo_linkedin\"><a href=\"https://github.com/laurent-66/my_first_blog_php\" target=\"_blank\"><img src=\"/images/GitHub-Mark-Light-64px.png\"/></a></div>
+                            <div id=\"logo_linkedin\"><a href=\"https://github.com/laurent-66/lesageduwebV1revision\" target=\"_blank\"><img src=\"/images/GitHub-Mark-Light-64px.png\"/></a></div>
                         </div>
-                    </div>
-                    <div class=\"row m-0 px-0 py-3\" id=\"mail\">
-                        <p>laurent.lesage51@gmail.com</p>
                     </div>
                 </div>
             </footer>
@@ -153,7 +150,7 @@ class __TwigTemplate_367ddb41bad1aafbe5b87bc358ce507c3370390c9dc27527d94bcf2cc29
 
     public function getDebugInfo()
     {
-        return array (  145 => 53,  141 => 52,  135 => 6,  97 => 55,  95 => 52,  46 => 6,  39 => 1,);
+        return array (  142 => 53,  138 => 52,  132 => 6,  97 => 55,  95 => 52,  46 => 6,  39 => 1,);
     }
 
     public function getSourceContext()
@@ -229,11 +226,8 @@ class __TwigTemplate_367ddb41bad1aafbe5b87bc358ce507c3370390c9dc27527d94bcf2cc29
                         </div>
 
                         <div id=\"block_linkedin\" class=\"col-12 col-sm-12 col-md-4 my-2 px-0\">
-                            <div id=\"logo_linkedin\"><a href=\"https://github.com/laurent-66/my_first_blog_php\" target=\"_blank\"><img src=\"/images/GitHub-Mark-Light-64px.png\"/></a></div>
+                            <div id=\"logo_linkedin\"><a href=\"https://github.com/laurent-66/lesageduwebV1revision\" target=\"_blank\"><img src=\"/images/GitHub-Mark-Light-64px.png\"/></a></div>
                         </div>
-                    </div>
-                    <div class=\"row m-0 px-0 py-3\" id=\"mail\">
-                        <p>laurent.lesage51@gmail.com</p>
                     </div>
                 </div>
             </footer>
