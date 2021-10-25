@@ -1,6 +1,4 @@
-#blog{
-    background-color:#E3F4FE;
-}
+
 
 .container-next-blog
 {
@@ -19,6 +17,11 @@
 .container-about h3 {
     color: #02ADF0;
 }
+
+.fas.fa-cogs.fa-9x {
+    margin-top: 30px;
+}
+
 
 /*menu écran inférieur à 768px */
 

@@ -1,6 +1,9 @@
 #skills
 {
 background-color: #E3F4FE;
+margin: 0px;
+padding: 0px;
+
 }
 .container-skills h2 {
     color: #02ADF0;
@@ -8,24 +11,254 @@ background-color: #E3F4FE;
     padding: 15px 0px 5px 0px;
 }
 
-.container-skills h3 {
+.container-skills + h3 {
     color: #02ADF0;
 } 
+.container-skills  h3 {
+    color: white;
+} 
+.card-content {
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
 
+/* cms */
+
+.card-white-cms {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px grey;
+    margin-top: 30px;
+    padding: 15px;
+    width:100%;
+}
+
+
+.cms-logos .item-logolangage{
+    margin: 0px auto;
+} 
+
+.card-white-cms h3 {
+    color: #02ADF0;
+}
+
+.card-white-cms p {
+    color: #02ADF0;
+}
+
+.cms-content{
+    width:70%;
+    padding:15px;
+}
+.cms-logos{
+    width:30%;
+}
+
+/* front-end */
+.row-front-end {
+    display:flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    width:100%;
+    flex-wrap: nowrap;
+    margin: 30px 0px;
+}
 .card-white {
     background-color: white;
     border-radius: 10px;
     box-shadow: 5px 5px 10px grey;
+    margin: 0px 15px 0px 0px;
+    padding: 15px;
+    width:50%;
+    min-height: 420px;
 }
 
-.item-logolangage {
+.card-white h3 {
+    color: #02ADF0;
+}
+
+.card-white li {
+    color: #099ad3;
+}
+
+.card-white p {
+    color: #099ad3;
+}
+
+.front-logos{
+    width: 50%;
+}
+.card-logos-front {
+    min-height: 420px;
+}
+.row-logos {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+}
+.item-logolangage{
     display:flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    min-width: 33%;
 }
-.credit-licence-logo p {
-    display:block;
-    font-size: 0.8rem;
-    margin: 0px auto;
+.card-logos-front{
+    background-color: #02ADF0;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px grey;
+    margin: 0px 15px 0px 0px;
+    padding: 15px;
+    width:100%;
+}
+
+/* back-end */
+
+.row-back-end {
+    display:flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    flex-wrap: nowrap;
+    margin: 30px 0px;
+}
+
+.card-blue{
+    background-color: #02ADF0;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px grey;
+    margin: 0px 15px 0px 0px;
+    padding: 15px;
+    width:50%;
+    min-height: 530px;
+}
+
+.card-logos-back{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px grey;
+    margin: 0px 15px 0px 0px;
+    padding: 15px;
+    width:100%;
+    min-height: 530px;
+}
+
+.card-blue h3 {
+    color: white;
+}
+
+.card-blue li {
+    color: white;
+}
+
+.card-blue p {
+    color: white;
+}
+
+.back-logos {
+    width: 50%;
+}
+
+/* crédit logos */
+
+.row-credit-logos{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    flex-wrap: nowrap;
+    margin: 15px 0px;
+}
+
+.credit-licence-logo a{
+    color: grey;
+}
+@media screen and (max-width: 767px)
+{
+
+    /* cms */
+    .card-white-cms {
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top:30px;
+    }
+    .cms-content{
+        width:100%;
+        padding:15px;
+    }
+    .cms-logos{
+        width:100%;
+    }
+
+    /* front */
+
+    .row-front-end {
+        display:flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        width:100%;
+    }
+
+    .card-white {
+        margin: 0px 15px;
+        padding: 15px;
+        width:100%;
+    }
+    .card-blue {
+        display:block;
+        margin: 5px 15px 0px 15px;
+        padding: 15px;
+        width:100%;
+    }
+    .front-logos{
+        width:100%;
+        margin-top:35px;
+    }
+    .card-logos-front{
+        min-height: auto;
+    }
+    .row-logos {
+        display:flex;
+        flex-direction: row;
+        justify-content: stretch;
+        align-items: center;
+        width: 100%;
+    }
+
+    .item-logolangage {
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        min-width: 33%;
+    }
+
+    .row-back-end {
+        display:flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+    }
+    .card-logos-back{
+        min-height: auto;
+    }
+    
+    .back-logos{
+        width:100%;
+        margin-top:35px;
+    }
 }

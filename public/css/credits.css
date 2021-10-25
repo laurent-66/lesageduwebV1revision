@@ -1,0 +1,29 @@
+/* .container-credits {
+    display:flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: left;
+    padding:15px;
+} */
+
+.container-credits h2 {
+    color: #02ADF0;
+    text-align: center;
+    padding: 15px 0px 5px 0px;
+}
+
+.container-credits h3 {
+    color: #02ADF0;
+}
+.container-credits p {
+    display:block;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+@media screen and (max-width: 767px)
+{
+    .container-credits p {
+        font-size: 1rem;
+    } 
+}

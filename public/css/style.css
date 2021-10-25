@@ -6,7 +6,7 @@
 @import "./training.css";
 @import "./skills.css";
 @import "./blog.css";
-
+@import "./credits.css";
 .divider{
     width:10%;
     height:5px;

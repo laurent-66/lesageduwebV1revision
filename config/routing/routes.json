@@ -33,5 +33,16 @@
         "_controller":"Application\\Controllers\\DefaultController",
         "_method": "getBlogPage",
         "_methods": ["GET"]
+    },
+    {
+        "name": "credits",
+        "path": "/credits",
+        "_controller":"Application\\Controllers\\DefaultController",
+        "_method": "getCreditLogoPage",
+        "_methods": ["GET"]
     }
+
+
+
+
 ]

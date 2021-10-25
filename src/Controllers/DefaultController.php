@@ -32,6 +32,10 @@ class DefaultController extends AbstractController
     {
         return $this->renderHtml('blog.html.twig');
     }
+    public function getCreditLogoPage(ServerRequestInterface $request, ParametersBag $bag)
+    {
+        return $this->renderHtml('credits.html.twig');
+    }
 
 
 
