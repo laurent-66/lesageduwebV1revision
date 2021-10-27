@@ -60,8 +60,6 @@ class __TwigTemplate_03a0fbbb17230df5e2c53ab62fc739b53860a00d33409047e952e7799b4
     <div class=\"container container-skills\">
         <h2>COMPETENCES</h2>
         <div class=\"divider\"></div>
-
-
             <div class=\"card-white-cms\">
                 <div class=\"cms-content\">
                     <h3>Système de gestion de contenu (CMS)</h3>
@@ -73,8 +71,6 @@ class __TwigTemplate_03a0fbbb17230df5e2c53ab62fc739b53860a00d33409047e952e7799b4
                     </div>
                 </div>
             </div>
-
-
         <div class=\"row-front-end\">
             <div class=\"card-white\">
                 <div class=\"card-content\">
@@ -164,26 +160,6 @@ class __TwigTemplate_03a0fbbb17230df5e2c53ab62fc739b53860a00d33409047e952e7799b4
                 <a href=\"/credits\">Crédits logos</a>
             </div>
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     </div>
 </div>
 ";
@@ -214,8 +190,6 @@ class __TwigTemplate_03a0fbbb17230df5e2c53ab62fc739b53860a00d33409047e952e7799b4
     <div class=\"container container-skills\">
         <h2>COMPETENCES</h2>
         <div class=\"divider\"></div>
-
-
             <div class=\"card-white-cms\">
                 <div class=\"cms-content\">
                     <h3>Système de gestion de contenu (CMS)</h3>
@@ -227,8 +201,6 @@ class __TwigTemplate_03a0fbbb17230df5e2c53ab62fc739b53860a00d33409047e952e7799b4
                     </div>
                 </div>
             </div>
-
-
         <div class=\"row-front-end\">
             <div class=\"card-white\">
                 <div class=\"card-content\">
@@ -318,26 +290,6 @@ class __TwigTemplate_03a0fbbb17230df5e2c53ab62fc739b53860a00d33409047e952e7799b4
                 <a href=\"/credits\">Crédits logos</a>
             </div>
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     </div>
 </div>
 {% endblock %} ", "skills.html.twig", "C:\\wamp64\\www\\Site_portfolio_laurent_V1\\templates\\skills.html.twig");

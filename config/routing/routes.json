@@ -40,7 +40,43 @@
         "_controller":"Application\\Controllers\\DefaultController",
         "_method": "getCreditLogoPage",
         "_methods": ["GET"]
+    },
+    {
+        "name": "gitignore",
+        "path": "/.gitignore",
+        "_controller":"Application\\Controllers\\DefaultController",
+        "_method": "getError404Page",
+        "_methods": ["GET"]
+    },
+    {
+        "name": "htaccess",
+        "path": "/.htaccess",
+        "_controller":"Application\\Controllers\\DefaultController",
+        "_method": "getError404Page",
+        "_methods": ["GET"]
+    },
+    {
+        "name": "composer.json",
+        "path": "/composer.json",
+        "_controller":"Application\\Controllers\\DefaultController",
+        "_method": "getError404Page",
+        "_methods": ["GET"]
+    },
+    {
+        "name": "composer.lock",
+        "path": "/composerlock",
+        "_controller":"Application\\Controllers\\DefaultController",
+        "_method": "composerLockPage",
+        "_methods": ["GET"]
+    },
+    {
+        "name": "error404",
+        "path": "/error404",
+        "_controller":"Application\\Controllers\\DefaultController",
+        "_method": "getError404Page",
+        "_methods": ["GET"]
     }
+
 
 
 

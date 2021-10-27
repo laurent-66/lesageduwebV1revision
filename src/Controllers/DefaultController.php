@@ -36,13 +36,15 @@ class DefaultController extends AbstractController
     {
         return $this->renderHtml('credits.html.twig');
     }
-
-
-
-
-
-
-
+    public function getError404Page(ServerRequestInterface $request, ParametersBag $bag)
+    {
+        return $this->renderHtml('error404.html.twig');
+    }
+    public function composerLockPage(ServerRequestInterface $request, ParametersBag $bag)
+    {
+        $redirect = new RedirectResponseHttp('/error404');
+        return $redirect->send();
+    }
 
 
 

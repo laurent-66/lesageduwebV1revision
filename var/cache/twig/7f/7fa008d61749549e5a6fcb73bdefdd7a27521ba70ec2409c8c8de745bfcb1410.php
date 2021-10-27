@@ -81,7 +81,7 @@ class __TwigTemplate_ca007623b1ffb1bdf7c83331c70a51f9ad160e796bbb6ea035857bbe91c
             </div>
         </div>
         <div class=\"container-button-cv col-sm-12 col-md-6 col-lg-6 col-xl-6 px-0 py-0 mx-0 my-0\">
-            <a href=\"../public/docs/CV-laurent-Lesage.pdf\" class='button-download' target='blank'>Télécharger CV</a>
+            <a href=\"../public/docs/CV-Laurent-Lesage.pdf\" class='button-download' target='blank'>Télécharger CV</a>
         </div>
     </div>
 </div>
@@ -136,7 +136,7 @@ class __TwigTemplate_ca007623b1ffb1bdf7c83331c70a51f9ad160e796bbb6ea035857bbe91c
             </div>
         </div>
         <div class=\"container-button-cv col-sm-12 col-md-6 col-lg-6 col-xl-6 px-0 py-0 mx-0 my-0\">
-            <a href=\"../public/docs/CV-laurent-Lesage.pdf\" class='button-download' target='blank'>Télécharger CV</a>
+            <a href=\"../public/docs/CV-Laurent-Lesage.pdf\" class='button-download' target='blank'>Télécharger CV</a>
         </div>
     </div>
 </div>
