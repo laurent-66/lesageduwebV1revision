@@ -28,11 +28,46 @@
         "_methods": ["GET"]
     },
     {
-        "name": "blog",
-        "path": "/blog",
-        "_controller":"Application\\Controllers\\DefaultController",
-        "_method": "getBlogPage",
+        "name": "blogs",
+        "path": "/blogs",
+        "_controller":"Application\\Controllers\\BlogPostController",
+        "_method": "getAllBlogs",
         "_methods": ["GET"]
+    },
+    {
+        "name": "blog",
+        "path": "/blogs/{id}",
+        "_controller":"Application\\Controllers\\BlogPostController",
+        "_method": "getBlog",
+        "_methods": ["GET", "POST"]
+    },
+    {
+        "name": "inscription",
+        "path": "/inscription",
+        "_controller":"Application\\Controllers\\SecurityController",
+        "_method": "register",
+        "_methods": ["GET", "POST"]
+    },
+    {
+        "name": "connexion",
+        "path": "/se-connecter",
+        "_controller":"Application\\Controllers\\SecurityController",
+        "_method": "login",
+        "_methods": ["GET", "POST"]
+    },
+    {
+        "name": "deconnexion",
+        "path": "/deconnecter",
+        "_controller":"Application\\Controllers\\SecurityController",
+        "_method": "disconnect",
+        "_methods": ["GET"]
+    },
+    {
+        "name": "dashboard",
+        "path": "/blogs/admin/dashboard",
+        "_controller":"Application\\Controllers\\AdminController",
+        "_method": "dashboard",
+        "_methods": ["GET", "POST"]
     },
     {
         "name": "credits",
@@ -76,9 +111,4 @@
         "_method": "getError404Page",
         "_methods": ["GET"]
     }
-
-
-
-
-
 ]

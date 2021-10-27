@@ -1,0 +1,177 @@
+/* page dashboard admin */
+
+/* list des blogs*/
+
+#dashboard
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:stretch;
+    background-color: rgb(255, 230, 255);
+    padding:0px;
+    margin:0px;
+    min-height:100vh;
+}
+
+#dashboard .heading 
+{
+    text-align: center;
+    background-color:purple;
+    margin:0px;
+    padding:0px;
+
+}
+
+#dashboard h2
+{
+    color:#fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin:30px 0px;
+}
+
+.container-dashboard
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items:stretch;
+    margin: 15px 0px;
+    min-height: 100vh;
+}
+.comment-list-block{
+    margin : 15px;
+}
+h4{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.tab-text{
+    color: black !important;
+}
+
+#tab-blogs, #tab-comment{
+    padding: 15px;
+}
+
+#tab-comment:hover{
+    
+    box-shadow: 0px 0px 10px rgb(255, 153, 255), 0px 0px 10px rgb(255, 153, 255);
+}
+
+#tab-blogs:hover{
+
+    box-shadow: 0px 0px 10px rgb(255, 153, 255), 0px 0px 10px rgb(255, 153, 255);
+
+}
+
+.line-info-list
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+}
+
+.item-list
+{
+    display:block;
+    margin-right:15px;
+    flex-wrap: nowrap;
+}
+
+.new-blog-button
+{
+    display:block;
+    width:200px;
+    text-decoration: none;
+}
+
+#blogs a
+{
+    text-decoration: none;
+
+}
+
+.far fa-eye{
+    color:white;
+}
+
+.option-button{
+
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px auto;
+
+}
+
+.option-button button {
+
+    display:block;
+    width:50px;
+    height:50px;
+}
+
+.container-content-row {
+
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.like-btn , .trash-btn
+{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+
+#blogs button {
+
+    margin-top: 15px;
+}
+
+/*menu écran inférieur à 768px */
+
+@media screen and (max-width: 767px)
+{
+    .container-content-row {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+    }
+
+    .item-list {
+        margin:15px;
+    }
+
+    .line-info-list
+    {
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width:100%;
+    }
+
+    .option-button button {
+
+        margin: 7.5px;
+        padding:7.5px;
+    }
+
+
+    .comment-line p {
+        text-align: justify;
+    }
+
+} 
+
