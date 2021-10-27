@@ -7,6 +7,10 @@
 @import "./skills.css";
 @import "./blog.css";
 @import "./credits.css";
+@import "./blogs-list.css";
+@import "./connexion.css";
+@import "./dashboard.css";
+
 .divider{
     width:10%;
     height:5px;
