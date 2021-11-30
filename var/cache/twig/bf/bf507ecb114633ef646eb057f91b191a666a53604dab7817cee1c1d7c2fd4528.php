@@ -230,6 +230,6 @@ class __TwigTemplate_f1401d0f3c03b6639038c15cf9f0e4a3b0c5babe43a0a1d33c858d5fbf0
     </div>
 </div>    
 {% endblock %} 
-", "dashboardAdmin.html.twig", "C:\\wamp64\\www\\Site_portfolio_laurent_V1\\templates\\dashboardAdmin.html.twig");
+", "dashboardAdmin.html.twig", "C:\\Users\\laure\\Documents\\ProjectPhp\\Site_portfolio_laurent_V1\\templates\\dashboardAdmin.html.twig");
     }
 }

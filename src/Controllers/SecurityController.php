@@ -23,13 +23,10 @@ class SecurityController extends AbstractController
 
     public function login(ServerRequestInterface $request, ParametersBag $bag)
     {
-
-
         $error = '';
 
         if ($request->getMethod() === 'POST') {
             $dataSubmitted = $request->getParsedBody();
-
             if ((strlen(trim($dataSubmitted['email']))) === 0 || strlen(trim($dataSubmitted['inputPassword'])) === 0) {
                 $error = "L'identifiant et le mot de passe sont requis.";
             } else {
@@ -38,13 +35,17 @@ class SecurityController extends AbstractController
                     $error = "Identifiants invalides";
                 } else {
                     $_SESSION['user'] = $user;
-                    $response = new RedirectResponseHttp('/');
-
+                    $response = new RedirectResponseHttp('/blogs/admin/dashboard');
                     return $response->send();
-
                     $validation = "vous êtes bien connecté";
                 }
             }
+
+        }
+        else if ($_SESSION['user'] === true) {
+
+            $response = new RedirectResponseHttp('/blogs/admin/dashboard');
+            return $response->send();
         }
         return $this->renderHtml('login.html.twig', ['error' => $error]);
     }

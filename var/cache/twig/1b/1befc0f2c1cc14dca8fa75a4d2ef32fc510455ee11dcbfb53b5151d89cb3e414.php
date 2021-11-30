@@ -68,7 +68,7 @@ class __TwigTemplate_709d2fa503ab89e4069792cf9c0bf13b67afc5d6ee3904d6e0258fdacde
             // line 10
             echo "            <div class=\"card-blog\">
                 <div class=\"card-img\">
-                    <img src=\"\\uploads\\";
+                    <img src=\"..\\public\\uploads\\";
             // line 12
             echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["blog"], "image_blog", [], "any", false, false, false, 12), "html", null, true);
             echo "\" class=\"img\" alt=\"img\">
@@ -135,7 +135,7 @@ class __TwigTemplate_709d2fa503ab89e4069792cf9c0bf13b67afc5d6ee3904d6e0258fdacde
         {% for blog in blogs %}
             <div class=\"card-blog\">
                 <div class=\"card-img\">
-                    <img src=\"\\uploads\\{{blog.image_blog}}\" class=\"img\" alt=\"img\">
+                    <img src=\"..\\public\\uploads\\{{blog.image_blog}}\" class=\"img\" alt=\"img\">
                 </div>
                 <div class=\"card-body\">
                     <h5 class=\"card-title\">{{blog.title_blog}}</h5>
@@ -149,6 +149,6 @@ class __TwigTemplate_709d2fa503ab89e4069792cf9c0bf13b67afc5d6ee3904d6e0258fdacde
     </div>
 </div>   
 {% endblock %}
-", "blogs-list.html.twig", "C:\\wamp64\\www\\Site_portfolio_laurent_V1\\templates\\blogs-list.html.twig");
+", "blogs-list.html.twig", "C:\\Users\\laure\\Documents\\ProjectPhp\\Site_portfolio_laurent_V1\\templates\\blogs-list.html.twig");
     }
 }

@@ -140,6 +140,6 @@ class __TwigTemplate_ca007623b1ffb1bdf7c83331c70a51f9ad160e796bbb6ea035857bbe91c
         </div>
     </div>
 </div>
-{% endblock %} ", "home.html.twig", "C:\\wamp64\\www\\Site_portfolio_laurent_V1\\templates\\home.html.twig");
+{% endblock %} ", "home.html.twig", "C:\\Users\\laure\\Documents\\ProjectPhp\\Site_portfolio_laurent_V1\\templates\\home.html.twig");
     }
 }

@@ -48,7 +48,7 @@ class __TwigTemplate_79f703e01944751494d2ae46e6ee67cdbce060dac79f42982d77c9405de
         <script src=\"https://kit.fontawesome.com/e48fcf7626.js\" crossorigin=\"anonymous\"></script>
         <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css\" integrity=\"sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh\" crossorigin=\"anonymous\">
         <link rel=\"stylesheet\" href=\"../public/css/style.css\">
-        <link rel=\"stylesheet\" href=\"../src/fonts\">
+        <link rel=\"stylesheet\" href=\"../public/src/fonts\">
 </head>
 <body>
     <header class=\"sticky-top\">
@@ -77,35 +77,25 @@ class __TwigTemplate_79f703e01944751494d2ae46e6ee67cdbce060dac79f42982d77c9405de
                         <li class=\"menu-item\">
                             <a class=\"item nav-link\" href=\"/blogs\">Blogs</a>
                         </li>
-                        <li class=\"menu-item\">
-                            <a class=\"item nav-link\" href=\"/inscription\">Inscription</a>
-                        </li>
                         ";
-        // line 42
-        if ((0 === twig_compare(($context["session"] ?? null), false))) {
-            // line 43
-            echo "                            <li class=\"menu-item\">
-                                <a class=\"item nav-link\" href=\"/se-connecter\">Connexion</a>
-                            </li>
-                        ";
-        } elseif ((0 === twig_compare(        // line 46
-($context["session"] ?? null), true))) {
-            // line 47
+        // line 39
+        if ((0 === twig_compare(($context["session"] ?? null), true))) {
+            // line 40
             echo "                            <li class=\"menu-item\">
                                 <a class=\"item nav-link\" href=\"/deconnecter\">déconnexion</a>
                             </li>
                         ";
         }
-        // line 51
+        // line 44
         echo "                    </ul>
                 </div>
             </div>
         </nav>
     </header>
     ";
-        // line 56
+        // line 49
         $this->displayBlock('body', $context, $blocks);
-        // line 59
+        // line 52
         echo "    <footer class=\"sticky-footer\">
         <div class=\"container-fluid bg-dark m-0 p-0\">
             <div id=\"row_footer\" class=\"row m-0 px-0 py-3\">
@@ -113,7 +103,6 @@ class __TwigTemplate_79f703e01944751494d2ae46e6ee67cdbce060dac79f42982d77c9405de
                     <div id=\"logo_linkedin\"><a href=\"https://fr.linkedin.com/in/laurent-lesage-795599113\" target=\"_blank\"><img src=\"../public/images/LinkedIn_Logo.png\"/></a></div>
                 </div>
                 <div id=\"block_arrow\" class=\"col-12 col-sm-12 col-md-4 my-2 px-0 text-center\">
-                            
                     <div id=\"arrow-top\"class=\"mx-auto my-3\"> <a href=\"#\"><img src=\"../public/images/iconarrow.png\"/></a></div>
                     <h5 class=\"my-3\">Cliquez, haut de la page</h5>
                 </div>
@@ -121,7 +110,9 @@ class __TwigTemplate_79f703e01944751494d2ae46e6ee67cdbce060dac79f42982d77c9405de
                     <div id=\"logo_linkedin\"><a href=\"https://github.com/laurent-66/my_first_blog_php\" target=\"_blank\"><img src=\"../public/images/GitHub-Mark-Light-64px.png\"/></a></div>
                 </div>
                 <div class=\"row m-0 px-0 py-3\" id=\"connexionAdmin\">
-                    <a href=\"/blogs/admin/dashboard\">Administration blogs</a>
+                    ";
+        // line 67
+        echo "                    <a href=\"/se-connecter\">Administration blogs</a>
                 </div>
             </div>
         </div>
@@ -140,11 +131,11 @@ class __TwigTemplate_79f703e01944751494d2ae46e6ee67cdbce060dac79f42982d77c9405de
         $macros = $this->macros;
     }
 
-    // line 56
+    // line 49
     public function block_body($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 57
+        // line 50
         echo "
     ";
     }
@@ -161,7 +152,7 @@ class __TwigTemplate_79f703e01944751494d2ae46e6ee67cdbce060dac79f42982d77c9405de
 
     public function getDebugInfo()
     {
-        return array (  148 => 57,  144 => 56,  138 => 6,  109 => 59,  107 => 56,  100 => 51,  94 => 47,  92 => 46,  87 => 43,  85 => 42,  46 => 6,  39 => 1,);
+        return array (  139 => 50,  135 => 49,  129 => 6,  115 => 67,  99 => 52,  97 => 49,  90 => 44,  84 => 40,  82 => 39,  46 => 6,  39 => 1,);
     }
 
     public function getSourceContext()
@@ -175,7 +166,7 @@ class __TwigTemplate_79f703e01944751494d2ae46e6ee67cdbce060dac79f42982d77c9405de
         <script src=\"https://kit.fontawesome.com/e48fcf7626.js\" crossorigin=\"anonymous\"></script>
         <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css\" integrity=\"sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh\" crossorigin=\"anonymous\">
         <link rel=\"stylesheet\" href=\"../public/css/style.css\">
-        <link rel=\"stylesheet\" href=\"../src/fonts\">
+        <link rel=\"stylesheet\" href=\"../public/src/fonts\">
 </head>
 <body>
     <header class=\"sticky-top\">
@@ -204,14 +195,7 @@ class __TwigTemplate_79f703e01944751494d2ae46e6ee67cdbce060dac79f42982d77c9405de
                         <li class=\"menu-item\">
                             <a class=\"item nav-link\" href=\"/blogs\">Blogs</a>
                         </li>
-                        <li class=\"menu-item\">
-                            <a class=\"item nav-link\" href=\"/inscription\">Inscription</a>
-                        </li>
-                        {% if session == false %}
-                            <li class=\"menu-item\">
-                                <a class=\"item nav-link\" href=\"/se-connecter\">Connexion</a>
-                            </li>
-                        {% elseif session == true %}
+                        {% if session == true %}
                             <li class=\"menu-item\">
                                 <a class=\"item nav-link\" href=\"/deconnecter\">déconnexion</a>
                             </li>
@@ -231,7 +215,6 @@ class __TwigTemplate_79f703e01944751494d2ae46e6ee67cdbce060dac79f42982d77c9405de
                     <div id=\"logo_linkedin\"><a href=\"https://fr.linkedin.com/in/laurent-lesage-795599113\" target=\"_blank\"><img src=\"../public/images/LinkedIn_Logo.png\"/></a></div>
                 </div>
                 <div id=\"block_arrow\" class=\"col-12 col-sm-12 col-md-4 my-2 px-0 text-center\">
-                            
                     <div id=\"arrow-top\"class=\"mx-auto my-3\"> <a href=\"#\"><img src=\"../public/images/iconarrow.png\"/></a></div>
                     <h5 class=\"my-3\">Cliquez, haut de la page</h5>
                 </div>
@@ -239,7 +222,8 @@ class __TwigTemplate_79f703e01944751494d2ae46e6ee67cdbce060dac79f42982d77c9405de
                     <div id=\"logo_linkedin\"><a href=\"https://github.com/laurent-66/my_first_blog_php\" target=\"_blank\"><img src=\"../public/images/GitHub-Mark-Light-64px.png\"/></a></div>
                 </div>
                 <div class=\"row m-0 px-0 py-3\" id=\"connexionAdmin\">
-                    <a href=\"/blogs/admin/dashboard\">Administration blogs</a>
+                    {# <a href=\"/blogs/admin/dashboard\">Administration blogs</a> #}
+                    <a href=\"/se-connecter\">Administration blogs</a>
                 </div>
             </div>
         </div>
@@ -249,6 +233,6 @@ class __TwigTemplate_79f703e01944751494d2ae46e6ee67cdbce060dac79f42982d77c9405de
         <script src=\"https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js\" integrity=\"sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo\" crossorigin=\"anonymous\"></script>
         <script src=\"https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js\" integrity=\"sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6\" crossorigin=\"anonymous\"></script> 
 </body>
-</html> ", "template.html.twig", "C:\\wamp64\\www\\Site_portfolio_laurent_V1\\templates\\template.html.twig");
+</html> ", "template.html.twig", "C:\\Users\\laure\\Documents\\ProjectPhp\\Site_portfolio_laurent_V1\\templates\\template.html.twig");
     }
 }
