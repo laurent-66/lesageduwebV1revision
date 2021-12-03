@@ -58,7 +58,7 @@ class __TwigTemplate_f83bbb14843cdeb176485ec420ac7288a4dfddf58108e56167f8114ef01
 <div class=\"container-fluid\" id=\"home\">
     <div class=\"row section1-accueil\">
         <div class=\"col-sm-12 col-md-6 col-lg-6 profile-picture\">
-            <img src=\"images/laurent.jpg\" alt=\"photo laurent\" class=\"rounded-circle w-50\">
+            <img src=\"/images/laurent.jpg\" alt=\"photo laurent\" class=\"rounded-circle w-50\">
         </div>
         <div class=\"heading col-sm-12 col-md-6 col-lg-6\">
             <h1>Laurent LESAGE</h1></br>
@@ -81,7 +81,7 @@ class __TwigTemplate_f83bbb14843cdeb176485ec420ac7288a4dfddf58108e56167f8114ef01
             </div>
         </div>
         <div class=\"container-button-cv col-sm-12 col-md-6 col-lg-6 col-xl-6 px-0 py-0 mx-0 my-0\">
-            <a href=\"docs/CV-Laurent-Lesage.pdf\" class='button-download' target='blank'>Télécharger CV</a>
+            <a href=\"/docs/CV-Laurent-Lesage.pdf\" class='button-download' target='blank'>Télécharger CV</a>
         </div>
     </div>
 </div>
@@ -113,7 +113,7 @@ class __TwigTemplate_f83bbb14843cdeb176485ec420ac7288a4dfddf58108e56167f8114ef01
 <div class=\"container-fluid\" id=\"home\">
     <div class=\"row section1-accueil\">
         <div class=\"col-sm-12 col-md-6 col-lg-6 profile-picture\">
-            <img src=\"images/laurent.jpg\" alt=\"photo laurent\" class=\"rounded-circle w-50\">
+            <img src=\"/images/laurent.jpg\" alt=\"photo laurent\" class=\"rounded-circle w-50\">
         </div>
         <div class=\"heading col-sm-12 col-md-6 col-lg-6\">
             <h1>Laurent LESAGE</h1></br>
@@ -136,7 +136,7 @@ class __TwigTemplate_f83bbb14843cdeb176485ec420ac7288a4dfddf58108e56167f8114ef01
             </div>
         </div>
         <div class=\"container-button-cv col-sm-12 col-md-6 col-lg-6 col-xl-6 px-0 py-0 mx-0 my-0\">
-            <a href=\"docs/CV-Laurent-Lesage.pdf\" class='button-download' target='blank'>Télécharger CV</a>
+            <a href=\"/docs/CV-Laurent-Lesage.pdf\" class='button-download' target='blank'>Télécharger CV</a>
         </div>
     </div>
 </div>

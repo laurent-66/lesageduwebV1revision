@@ -109,12 +109,23 @@ class __TwigTemplate_79f703e01944751494d2ae46e6ee67cdbce060dac79f42982d77c9405de
                 <div id=\"block_linkedin\" class=\"col-12 col-sm-12 col-md-4 my-2 px-0\">
                     <div id=\"logo_linkedin\"><a href=\"https://github.com/laurent-66/my_first_blog_php\" target=\"_blank\"><img src=\"../public/images/GitHub-Mark-Light-64px.png\"/></a></div>
                 </div>
-                <div class=\"row m-0 px-0 py-3\" id=\"connexionAdmin\">
-                    ";
-        // line 67
-        echo "                    <a href=\"/se-connecter\">Administration blogs</a>
-                </div>
-            </div>
+                ";
+        // line 65
+        if ((0 === twig_compare(($context["session"] ?? null), true))) {
+            // line 66
+            echo "                    <div class=\"row m-0 px-0 py-3\" id=\"connexionAdmin\">
+                        <a href=\"/blogs/admin/dashboard\">Administration blogs</a>
+                    </div>
+                ";
+        } else {
+            // line 70
+            echo "                    <div class=\"row m-0 px-0 py-3\" id=\"connexionAdmin\">
+                        <a href=\"/se-connecter\">Administration blogs</a>
+                    </div>
+                ";
+        }
+        // line 74
+        echo "            </div>
         </div>
     </footer>
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -152,7 +163,7 @@ class __TwigTemplate_79f703e01944751494d2ae46e6ee67cdbce060dac79f42982d77c9405de
 
     public function getDebugInfo()
     {
-        return array (  139 => 50,  135 => 49,  129 => 6,  115 => 67,  99 => 52,  97 => 49,  90 => 44,  84 => 40,  82 => 39,  46 => 6,  39 => 1,);
+        return array (  150 => 50,  146 => 49,  140 => 6,  128 => 74,  122 => 70,  116 => 66,  114 => 65,  99 => 52,  97 => 49,  90 => 44,  84 => 40,  82 => 39,  46 => 6,  39 => 1,);
     }
 
     public function getSourceContext()
@@ -221,10 +232,15 @@ class __TwigTemplate_79f703e01944751494d2ae46e6ee67cdbce060dac79f42982d77c9405de
                 <div id=\"block_linkedin\" class=\"col-12 col-sm-12 col-md-4 my-2 px-0\">
                     <div id=\"logo_linkedin\"><a href=\"https://github.com/laurent-66/my_first_blog_php\" target=\"_blank\"><img src=\"../public/images/GitHub-Mark-Light-64px.png\"/></a></div>
                 </div>
-                <div class=\"row m-0 px-0 py-3\" id=\"connexionAdmin\">
-                    {# <a href=\"/blogs/admin/dashboard\">Administration blogs</a> #}
-                    <a href=\"/se-connecter\">Administration blogs</a>
-                </div>
+                {% if session == true %}
+                    <div class=\"row m-0 px-0 py-3\" id=\"connexionAdmin\">
+                        <a href=\"/blogs/admin/dashboard\">Administration blogs</a>
+                    </div>
+                {% else %}
+                    <div class=\"row m-0 px-0 py-3\" id=\"connexionAdmin\">
+                        <a href=\"/se-connecter\">Administration blogs</a>
+                    </div>
+                {% endif %}
             </div>
         </div>
     </footer>
