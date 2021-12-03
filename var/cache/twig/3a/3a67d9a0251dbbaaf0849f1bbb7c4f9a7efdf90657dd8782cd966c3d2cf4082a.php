@@ -70,21 +70,18 @@ class __TwigTemplate_e3b150e0afbd4aecdbaeca43db74916e507a20b4dc65c3cf5f6117594d8
                                 <li class=\"menu-item\">
                                     <a class=\"item nav-link\" href=\"/blogs\">Blogs</a>
                                 </li>
-            
-                                ";
-        // line 36
-        echo "
+
                             ";
-        // line 37
+        // line 33
         if ((0 === twig_compare(($context["session"] ?? null), false))) {
-            // line 38
+            // line 34
             echo "                                <li class=\"menu-item\">
                                     <a class=\"item nav-link\" href=\"/se-connecter\">Connexion</a>
                                 </li>
                             ";
-        } elseif ((0 === twig_compare(        // line 41
+        } elseif ((0 === twig_compare(        // line 37
 ($context["session"] ?? null), true))) {
-            // line 42
+            // line 38
             echo "
                                 <li class=\"menu-item\">
                                     <a class=\"item nav-link\" href=\"/deconnecter\">déconnexion</a>
@@ -92,7 +89,7 @@ class __TwigTemplate_e3b150e0afbd4aecdbaeca43db74916e507a20b4dc65c3cf5f6117594d8
 
                             ";
         }
-        // line 48
+        // line 44
         echo "
                             </ul>
                         </div>
@@ -102,9 +99,9 @@ class __TwigTemplate_e3b150e0afbd4aecdbaeca43db74916e507a20b4dc65c3cf5f6117594d8
 
 
             ";
-        // line 56
+        // line 52
         $this->displayBlock('body', $context, $blocks);
-        // line 59
+        // line 55
         echo "
 
         <footer class=\"sticky-footer\">
@@ -150,11 +147,11 @@ class __TwigTemplate_e3b150e0afbd4aecdbaeca43db74916e507a20b4dc65c3cf5f6117594d8
         $macros = $this->macros;
     }
 
-    // line 56
+    // line 52
     public function block_body($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 57
+        // line 53
         echo "
             ";
     }
@@ -171,7 +168,7 @@ class __TwigTemplate_e3b150e0afbd4aecdbaeca43db74916e507a20b4dc65c3cf5f6117594d8
 
     public function getDebugInfo()
     {
-        return array (  158 => 57,  154 => 56,  148 => 6,  108 => 59,  106 => 56,  96 => 48,  88 => 42,  86 => 41,  81 => 38,  79 => 37,  76 => 36,  46 => 6,  39 => 1,);
+        return array (  155 => 53,  151 => 52,  145 => 6,  105 => 55,  103 => 52,  93 => 44,  85 => 38,  83 => 37,  78 => 34,  76 => 33,  46 => 6,  39 => 1,);
     }
 
     public function getSourceContext()
@@ -207,10 +204,6 @@ class __TwigTemplate_e3b150e0afbd4aecdbaeca43db74916e507a20b4dc65c3cf5f6117594d8
                                 <li class=\"menu-item\">
                                     <a class=\"item nav-link\" href=\"/blogs\">Blogs</a>
                                 </li>
-            
-                                {# <li class=\"menu-item\">
-                                    <a class=\"item nav-link\" href=\"/inscription\">Inscription</a>
-                                </li> #}
 
                             {% if session == false %}
                                 <li class=\"menu-item\">

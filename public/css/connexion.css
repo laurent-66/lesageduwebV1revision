@@ -9,7 +9,7 @@
     background-color: #E3F4FE;
     padding:0px;
     margin:0px;
-    min-height: 100vh;
+    min-height:100vh;
 }
 
 #connexion .heading 
@@ -31,7 +31,7 @@
 .box_connexion{
     background-color: white;
     border-radius: 10px;
-    width:60%;
+    width:30%;
     margin:50px auto;
     padding:15px;
     box-shadow: 5px 5px 10px grey;
