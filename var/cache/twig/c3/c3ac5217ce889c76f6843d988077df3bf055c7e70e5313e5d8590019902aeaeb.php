@@ -118,38 +118,6 @@ class __TwigTemplate_802909d71211c403f8c02747bd08497d444d03a16a6155c5b55525f4252
         $context = array_intersect_key($context, $_parent) + $_parent;
         // line 38
         echo "                </div>
-                <div id=\"commentaires\" role=\"tabpanel\" class=\"tab-pane\">
-                    ";
-        // line 40
-        $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable(($context["commentsNotValidate"] ?? null));
-        foreach ($context['_seq'] as $context["_key"] => $context["comment"]) {
-            // line 41
-            echo "                        <div class=\"comment-line row\">
-                            <div class=\"col-sm-12 col-md-10 col-lg-10\"><p class=\"mx-3 my-3\">";
-            // line 42
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["comment"], "commentContent", [], "any", false, false, false, 42), "html", null, true);
-            echo "</p></div>
-                            <div class=\"col-sm-12 col-md-2 col-lg-2 mr-3\">
-                                <div class=\"row row-btn px-0 mx-0 my-2 \">
-                                    <div class=\"button-comment-line px-0 mx-0\"><a href=";
-            // line 45
-            echo twig_escape_filter($this->env, ((("/blog/admin/approveComment/" . twig_get_attribute($this->env, $this->source, $context["comment"], "blog_post_id_blog_post", [], "any", false, false, false, 45)) . "/") . twig_get_attribute($this->env, $this->source, $context["comment"], "id", [], "any", false, false, false, 45)), "html", null, true);
-            echo "><button type=\"button\" class=\"btn btn-success btn-block like-btn\"><i class=\"far fa-thumbs-up\"></i></button></a></div>
-                                    <div class=\"button-comment-line px-0 mx-0\"><a href=";
-            // line 46
-            echo twig_escape_filter($this->env, ((("/blog/admin/deleteComment/" . twig_get_attribute($this->env, $this->source, $context["comment"], "blog_post_id_blog_post", [], "any", false, false, false, 46)) . "/") . twig_get_attribute($this->env, $this->source, $context["comment"], "id", [], "any", false, false, false, 46)), "html", null, true);
-            echo "><button type=\"button\" class=\"btn  btn-danger btn-block trash-btn\"><i class=\"fas fa-trash-alt\"></i></button></a></div>
-                                </div>
-                            </div>
-                        </div>    
-                    ";
-        }
-        $_parent = $context['_parent'];
-        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['comment'], $context['_parent'], $context['loop']);
-        $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 51
-        echo "                </div>
             </div>
         </div>    
     </div>
@@ -169,7 +137,7 @@ class __TwigTemplate_802909d71211c403f8c02747bd08497d444d03a16a6155c5b55525f4252
 
     public function getDebugInfo()
     {
-        return array (  152 => 51,  141 => 46,  137 => 45,  131 => 42,  128 => 41,  124 => 40,  120 => 38,  109 => 33,  105 => 32,  101 => 31,  94 => 27,  90 => 26,  86 => 25,  81 => 22,  77 => 21,  54 => 3,  47 => 2,  36 => 1,);
+        return array (  120 => 38,  109 => 33,  105 => 32,  101 => 31,  94 => 27,  90 => 26,  86 => 25,  81 => 22,  77 => 21,  54 => 3,  47 => 2,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -210,19 +178,6 @@ class __TwigTemplate_802909d71211c403f8c02747bd08497d444d03a16a6155c5b55525f4252
                             </div>
                         </div>
                     </div>
-                    {% endfor %}
-                </div>
-                <div id=\"commentaires\" role=\"tabpanel\" class=\"tab-pane\">
-                    {% for comment in commentsNotValidate %}
-                        <div class=\"comment-line row\">
-                            <div class=\"col-sm-12 col-md-10 col-lg-10\"><p class=\"mx-3 my-3\">{{comment.commentContent}}</p></div>
-                            <div class=\"col-sm-12 col-md-2 col-lg-2 mr-3\">
-                                <div class=\"row row-btn px-0 mx-0 my-2 \">
-                                    <div class=\"button-comment-line px-0 mx-0\"><a href={{'/blog/admin/approveComment/'~comment.blog_post_id_blog_post~'/'~comment.id }}><button type=\"button\" class=\"btn btn-success btn-block like-btn\"><i class=\"far fa-thumbs-up\"></i></button></a></div>
-                                    <div class=\"button-comment-line px-0 mx-0\"><a href={{'/blog/admin/deleteComment/'~comment.blog_post_id_blog_post~'/'~comment.id }}><button type=\"button\" class=\"btn  btn-danger btn-block trash-btn\"><i class=\"fas fa-trash-alt\"></i></button></a></div>
-                                </div>
-                            </div>
-                        </div>    
                     {% endfor %}
                 </div>
             </div>
