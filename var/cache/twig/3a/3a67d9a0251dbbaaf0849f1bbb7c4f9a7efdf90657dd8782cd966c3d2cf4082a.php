@@ -119,7 +119,7 @@ class __TwigTemplate_e3b150e0afbd4aecdbaeca43db74916e507a20b4dc65c3cf5f6117594d8
                         </div>
 
                         <div id=\"block_linkedin\" class=\"col-12 col-sm-12 col-md-4 my-2 px-0\">
-                            <div id=\"logo_linkedin\"><a href=\"https://github.com/laurent-66/my_first_blog_php\" target=\"_blank\"><img src=\"/images/GitHub-Mark-Light-64px.png\"/></a></div>
+                            <div id=\"logo_linkedin\"><a href=\"https://github.com/laurent-66\" target=\"_blank\"><img src=\"/images/GitHub-Mark-Light-64px.png\"/></a></div>
                         </div>
                     </div>
                     <div class=\"row m-0 px-0 py-3\" id=\"connexionAdmin\">
@@ -244,7 +244,7 @@ class __TwigTemplate_e3b150e0afbd4aecdbaeca43db74916e507a20b4dc65c3cf5f6117594d8
                         </div>
 
                         <div id=\"block_linkedin\" class=\"col-12 col-sm-12 col-md-4 my-2 px-0\">
-                            <div id=\"logo_linkedin\"><a href=\"https://github.com/laurent-66/my_first_blog_php\" target=\"_blank\"><img src=\"/images/GitHub-Mark-Light-64px.png\"/></a></div>
+                            <div id=\"logo_linkedin\"><a href=\"https://github.com/laurent-66\" target=\"_blank\"><img src=\"/images/GitHub-Mark-Light-64px.png\"/></a></div>
                         </div>
                     </div>
                     <div class=\"row m-0 px-0 py-3\" id=\"connexionAdmin\">
