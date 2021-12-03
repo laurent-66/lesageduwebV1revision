@@ -77,6 +77,13 @@
         "_methods": ["GET", "POST"]
     },
     {
+        "name": "updateBlog",
+        "path": "/blogs/admin/{id}/edit",
+        "_controller":"Application\\Controllers\\AdminController",
+        "_method": "updateBlog",
+        "_methods": ["GET", "POST"]
+    },
+    {
         "name": "credits",
         "path": "/credits",
         "_controller":"Application\\Controllers\\DefaultController",
