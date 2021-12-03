@@ -9,8 +9,10 @@
 @import "./blogs-list.css";
 @import "./connexion.css";
 @import "./dashboard.css";
+@import "./newblog.css";
+@import "./update_blog.css";
 @import "./template.css";
-@import "./register.css";
+
 
 .divider{
     width:10%;

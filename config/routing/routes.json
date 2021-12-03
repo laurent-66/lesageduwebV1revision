@@ -70,6 +70,27 @@
         "_methods": ["GET", "POST"]
     },
     {
+        "name": "newBlog",
+        "path": "/blogs/admin/new",
+        "_controller":"Application\\Controllers\\AdminController",
+        "_method": "createBlog",
+        "_methods": ["GET", "POST"]
+    },
+    {
+        "name": "updateBlog",
+        "path": "/blogs/admin/{id}/edit",
+        "_controller":"Application\\Controllers\\AdminController",
+        "_method": "updateBlog",
+        "_methods": ["GET", "POST"]
+    },
+    {
+        "name": "deleteBlog",
+        "path": "/blogs/admin/{id}/delete",
+        "_controller":"Application\\Controllers\\AdminController",
+        "_method": "deleteBlog",
+        "_methods": ["GET", "DELETE"]
+    },
+    {
         "name": "credits",
         "path": "/credits",
         "_controller":"Application\\Controllers\\DefaultController",
