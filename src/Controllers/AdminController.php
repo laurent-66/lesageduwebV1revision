@@ -183,47 +183,4 @@ class AdminController extends AbstractController
         return $this->renderHtml('blog.html.twig', ['blog' => $blog,'findComments' => $findComments, 'user' => $user]);
     }
 
-    public function approveComment(ServerRequestInterface $request, ParametersBag $bag)
-    {
-
-        //Récupération de la valeur de l'id comment $id du $bag
-        $id = (int) $bag->getParameter('id')->getValue();
-
-        // $findComments = $this->commentRepository->findCommentsByBlogId($id);
-
-        $this->commentRepository->approveComment($id);
-
-        $idblog = (int) $bag->getParameter('blogId')->getValue();
-
-        //redirection sur la page courante (get)
-        $redirect = new RedirectResponseHttp('/blogs/admin/dashboard');
-        return $redirect->send();
-    }
-
-    public function deleteComment(ServerRequestInterface $request, ParametersBag $bag)
-    {
-
-        //Récupération de la valeur de l'id comment $id du $bag
-        $id = (int) $bag->getParameter('id')->getValue();
-        $this->commentRepository->deleteComment($id);
-
-        //redirection sur la page courante (get)
-        $redirect = new RedirectResponseHttp('/blogs/admin/dashboard');
-        return $redirect->send();
-    }
-
-    public function reportComment(ServerRequestInterface $request, ParametersBag $bag)
-    {
-
-        //Récupération de la valeur de l'id comment $id du $bag
-        $id = (int) $bag->getParameter('id')->getValue();
-        $idBlog = (int) $bag->getParameter('blogId')->getValue();
-
-        $this->commentRepository->reportComment($id);
-
-        //redirection sur la page courante (get)
-        $redirect = new RedirectResponseHttp('/blogs/' . $idBlog);
-
-        return $redirect->send();
-    }
 }

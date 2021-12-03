@@ -70,6 +70,13 @@
         "_methods": ["GET", "POST"]
     },
     {
+        "name": "newBlog",
+        "path": "/blogs/admin/new",
+        "_controller":"Application\\Controllers\\AdminController",
+        "_method": "createBlog",
+        "_methods": ["GET", "POST"]
+    },
+    {
         "name": "credits",
         "path": "/credits",
         "_controller":"Application\\Controllers\\DefaultController",
