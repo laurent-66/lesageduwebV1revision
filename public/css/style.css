@@ -1,5 +1,6 @@
 @import "./header.css";
 @import "./footer.css";
+@import "./template.css";
 @import "./accueil.css"; 
 @import "./about.css";
 @import "./training.css";
@@ -11,8 +12,6 @@
 @import "./dashboard.css";
 @import "./newblog.css";
 @import "./update_blog.css";
-@import "./template.css";
-
 
 .divider{
     width:10%;
