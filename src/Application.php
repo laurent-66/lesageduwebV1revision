@@ -65,7 +65,7 @@ class Application
     private function init()
     {
         $this->routeCollection = new RouteCollection();
-        $routes = json_decode(file_get_contents('../config/routing/routes.json'), true);
+        $routes = json_decode(file_get_contents('./config/routing/routes.json'), true);
         foreach ($routes as $route) {
             $this->routeCollection->add(
                 $route['name'],
