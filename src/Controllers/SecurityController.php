@@ -72,6 +72,8 @@ class SecurityController extends AbstractController
             } else {
                 $passwordHash = password_hash($dataSubmitted['inputPassword'], PASSWORD_DEFAULT);
                 $this->userRepository->registerUser($dataSubmitted['pseudo'], $dataSubmitted['email'], $passwordHash);
+                $result = new RedirectResponseHttp('/');
+                return $result->send();
             }
         }
 
