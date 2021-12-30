@@ -36,39 +36,62 @@ class __TwigTemplate_d92a759828486a6c76e74acdeba44d818b47dc2bac1206d0117630c46e1
         // line 1
         echo "<header class=\"sticky-top\">
     <nav class=\"navbar navbar-dark navbar-expand-md bg-dark m-0 p-0\">
-        <div class=\"container-fluid m-0 p-0 menunavigation \">
-            <div class=\"navbar-brand m-0 p-3\">Menu</div>
+        <div class=\"container-fluid mx-0 px-0 menunavigation \">
+            <div class=\"navbar-brand m-3 \">Menu</div>
             <div id=\"buttonMenu\">
-                <button class=\"d-block navbar-toggler m-3 p-1\" data-toggle=\"collapse\" data-target=\"#navbarText\">
+                <button class=\"d-block navbar-toggler m-3 \" data-toggle=\"collapse\" data-target=\"#navbarText\">
                     <span class=\"navbar-toggler-icon\"></span>
                 </button>
             </div>
             <div class=\"collapse navbar-collapse\" id=\"navbarText\">
                 <ul class=\"menu\">
                     <li class=\"menu-item\">
-                        <a class=\"item nav-link\" href=\"/\">Accueil</a>
+                        <div class=\"block-item\">
+                            <a class=\"item nav-link\" href=\"/\">Accueil</a>
+                        </div>
                     </li>
                     <li class=\"menu-item\">
-                        <a class=\"item nav-link\" href=\"/blogs\">Blogs</a>
+                        <div class=\"block-item\">
+                            <a class=\"item nav-link\" href=\"/competences\">Compétences</a>
+                        </div>
+                    </li>
+                    <li class=\"menu-item\">
+                        <div class=\"block-item\">
+                            <a class=\"item nav-link\" href=\"/formations\">Formations</a>
+                        </div>
+                    </li>
+                    <li class=\"menu-item\">
+                        <div class=\"block-item\">
+                            <a class=\"item nav-link\" href=\"/a_propos\">A propos</a>
+                        </div>
+                    </li>
+                    <li class=\"menu-item\">
+                        <div class=\"block-item\">
+                            <a class=\"item nav-link\" href=\"/blogs\">Blogs</a>
+                        </div>
                     </li>
 
                     ";
-        // line 19
+        // line 38
         if ((0 === twig_compare(($context["session"] ?? null), false))) {
-            // line 20
+            // line 39
             echo "                        <li class=\"menu-item\">
-                            <a class=\"item nav-link\" href=\"/se-connecter\">Connexion</a>
+                            <div class=\"block-item\">
+                                <a class=\"item nav-link\" href=\"/se-connecter\">Connexion</a>
+                            </div>                            
                         </li>
                     ";
-        } elseif ((0 === twig_compare(        // line 23
+        } elseif ((0 === twig_compare(        // line 44
 ($context["session"] ?? null), true))) {
-            // line 24
+            // line 45
             echo "                        <li class=\"menu-item\">
-                            <a class=\"item nav-link\" href=\"/deconnecter\">déconnexion</a>
+                            <div class=\"block-item\">
+                                <a class=\"item nav-link\" href=\"/deconnecter\">déconnexion</a>
+                            </div>
                         </li>
                     ";
         }
-        // line 28
+        // line 51
         echo "                </ul>
             </div>
         </div>
@@ -88,36 +111,59 @@ class __TwigTemplate_d92a759828486a6c76e74acdeba44d818b47dc2bac1206d0117630c46e1
 
     public function getDebugInfo()
     {
-        return array (  72 => 28,  66 => 24,  64 => 23,  59 => 20,  57 => 19,  37 => 1,);
+        return array (  95 => 51,  87 => 45,  85 => 44,  78 => 39,  76 => 38,  37 => 1,);
     }
 
     public function getSourceContext()
     {
         return new Source("<header class=\"sticky-top\">
     <nav class=\"navbar navbar-dark navbar-expand-md bg-dark m-0 p-0\">
-        <div class=\"container-fluid m-0 p-0 menunavigation \">
-            <div class=\"navbar-brand m-0 p-3\">Menu</div>
+        <div class=\"container-fluid mx-0 px-0 menunavigation \">
+            <div class=\"navbar-brand m-3 \">Menu</div>
             <div id=\"buttonMenu\">
-                <button class=\"d-block navbar-toggler m-3 p-1\" data-toggle=\"collapse\" data-target=\"#navbarText\">
+                <button class=\"d-block navbar-toggler m-3 \" data-toggle=\"collapse\" data-target=\"#navbarText\">
                     <span class=\"navbar-toggler-icon\"></span>
                 </button>
             </div>
             <div class=\"collapse navbar-collapse\" id=\"navbarText\">
                 <ul class=\"menu\">
                     <li class=\"menu-item\">
-                        <a class=\"item nav-link\" href=\"/\">Accueil</a>
+                        <div class=\"block-item\">
+                            <a class=\"item nav-link\" href=\"/\">Accueil</a>
+                        </div>
                     </li>
                     <li class=\"menu-item\">
-                        <a class=\"item nav-link\" href=\"/blogs\">Blogs</a>
+                        <div class=\"block-item\">
+                            <a class=\"item nav-link\" href=\"/competences\">Compétences</a>
+                        </div>
+                    </li>
+                    <li class=\"menu-item\">
+                        <div class=\"block-item\">
+                            <a class=\"item nav-link\" href=\"/formations\">Formations</a>
+                        </div>
+                    </li>
+                    <li class=\"menu-item\">
+                        <div class=\"block-item\">
+                            <a class=\"item nav-link\" href=\"/a_propos\">A propos</a>
+                        </div>
+                    </li>
+                    <li class=\"menu-item\">
+                        <div class=\"block-item\">
+                            <a class=\"item nav-link\" href=\"/blogs\">Blogs</a>
+                        </div>
                     </li>
 
                     {% if session == false %}
                         <li class=\"menu-item\">
-                            <a class=\"item nav-link\" href=\"/se-connecter\">Connexion</a>
+                            <div class=\"block-item\">
+                                <a class=\"item nav-link\" href=\"/se-connecter\">Connexion</a>
+                            </div>                            
                         </li>
                     {% elseif session == true %}
                         <li class=\"menu-item\">
-                            <a class=\"item nav-link\" href=\"/deconnecter\">déconnexion</a>
+                            <div class=\"block-item\">
+                                <a class=\"item nav-link\" href=\"/deconnecter\">déconnexion</a>
+                            </div>
                         </li>
                     {% endif %}
                 </ul>

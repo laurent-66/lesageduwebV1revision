@@ -45,28 +45,27 @@ class __TwigTemplate_79f703e01944751494d2ae46e6ee67cdbce060dac79f42982d77c9405de
         // line 6
         $this->displayBlock('title', $context, $blocks);
         echo "</title>
-        <script src=\"https://kit.fontawesome.com/e48fcf7626.js\" crossorigin=\"anonymous\"></script>
-        <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css\" integrity=\"sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh\" crossorigin=\"anonymous\">
-        <link rel=\"stylesheet\" href=\"../public/css/style.css\">
-        <link rel=\"stylesheet\" href=\"../public/css/dashboardxxx.css\">
-        <link rel=\"stylesheet\" href=\"../public/src/fonts\">
+    <script src=\"https://kit.fontawesome.com/e48fcf7626.js\" crossorigin=\"anonymous\"></script>
+    <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css\" integrity=\"sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh\" crossorigin=\"anonymous\">
+    <link rel=\"stylesheet\" href=\"/public/css/style.css\">
+    <link rel=\"stylesheet\" href=\"/public/src/fonts\">
 </head>
 <body>
 
     ";
+        // line 14
+        $this->loadTemplate("/partials/header.html.twig", "template.html.twig", 14)->display($context);
         // line 15
-        $this->loadTemplate("/partials/header.html.twig", "template.html.twig", 15)->display($context);
+        echo "
+    ";
         // line 16
-        echo "
-    ";
-        // line 17
         $this->displayBlock('body', $context, $blocks);
-        // line 18
+        // line 17
         echo "
     ";
+        // line 18
+        $this->loadTemplate("/partials/footer.html.twig", "template.html.twig", 18)->display($context);
         // line 19
-        $this->loadTemplate("/partials/footer.html.twig", "template.html.twig", 19)->display($context);
-        // line 20
         echo "
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -83,7 +82,7 @@ class __TwigTemplate_79f703e01944751494d2ae46e6ee67cdbce060dac79f42982d77c9405de
         $macros = $this->macros;
     }
 
-    // line 17
+    // line 16
     public function block_body($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -102,7 +101,7 @@ class __TwigTemplate_79f703e01944751494d2ae46e6ee67cdbce060dac79f42982d77c9405de
 
     public function getDebugInfo()
     {
-        return array (  87 => 17,  81 => 6,  70 => 20,  68 => 19,  65 => 18,  63 => 17,  60 => 16,  58 => 15,  46 => 6,  39 => 1,);
+        return array (  86 => 16,  80 => 6,  69 => 19,  67 => 18,  64 => 17,  62 => 16,  59 => 15,  57 => 14,  46 => 6,  39 => 1,);
     }
 
     public function getSourceContext()
@@ -113,11 +112,10 @@ class __TwigTemplate_79f703e01944751494d2ae46e6ee67cdbce060dac79f42982d77c9405de
     <meta charset=\"UTF-8\">
     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
     <title>{% block title %}{% endblock %}</title>
-        <script src=\"https://kit.fontawesome.com/e48fcf7626.js\" crossorigin=\"anonymous\"></script>
-        <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css\" integrity=\"sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh\" crossorigin=\"anonymous\">
-        <link rel=\"stylesheet\" href=\"../public/css/style.css\">
-        <link rel=\"stylesheet\" href=\"../public/css/dashboardxxx.css\">
-        <link rel=\"stylesheet\" href=\"../public/src/fonts\">
+    <script src=\"https://kit.fontawesome.com/e48fcf7626.js\" crossorigin=\"anonymous\"></script>
+    <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css\" integrity=\"sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh\" crossorigin=\"anonymous\">
+    <link rel=\"stylesheet\" href=\"/public/css/style.css\">
+    <link rel=\"stylesheet\" href=\"/public/src/fonts\">
 </head>
 <body>
 

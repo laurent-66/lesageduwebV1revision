@@ -58,7 +58,7 @@ class __TwigTemplate_ca007623b1ffb1bdf7c83331c70a51f9ad160e796bbb6ea035857bbe91c
 <div class=\"container-fluid\" id=\"home\">
     <div class=\"row section1-accueil\">
         <div class=\"col-sm-12 col-md-6 col-lg-6 profile-picture\">
-            <img src=\"../public/images/laurent.jpg\" alt=\"photo laurent\" class=\"rounded-circle w-50\">
+            <img src=\"/public/images/laurent.jpg\" alt=\"photo laurent\" class=\"rounded-circle w-50\">
         </div>
         <div class=\"heading col-sm-12 col-md-6 col-lg-6\">
             <h1>Laurent LESAGE</h1></br>
@@ -81,7 +81,7 @@ class __TwigTemplate_ca007623b1ffb1bdf7c83331c70a51f9ad160e796bbb6ea035857bbe91c
             </div>
         </div>
         <div class=\"container-button-cv col-sm-12 col-md-6 col-lg-6 col-xl-6 px-0 py-0 mx-0 my-0\">
-            <a href=\"../public/docs/CV-Laurent-Lesage.pdf\" class='button-download' target='blank'>Télécharger CV</a>
+            <a href=\"/public/docs/CV-Laurent-Lesage.pdf\" class='button-download' target='blank'>Télécharger CV</a>
         </div>
     </div>
 </div>
@@ -113,7 +113,7 @@ class __TwigTemplate_ca007623b1ffb1bdf7c83331c70a51f9ad160e796bbb6ea035857bbe91c
 <div class=\"container-fluid\" id=\"home\">
     <div class=\"row section1-accueil\">
         <div class=\"col-sm-12 col-md-6 col-lg-6 profile-picture\">
-            <img src=\"../public/images/laurent.jpg\" alt=\"photo laurent\" class=\"rounded-circle w-50\">
+            <img src=\"/public/images/laurent.jpg\" alt=\"photo laurent\" class=\"rounded-circle w-50\">
         </div>
         <div class=\"heading col-sm-12 col-md-6 col-lg-6\">
             <h1>Laurent LESAGE</h1></br>
@@ -136,7 +136,7 @@ class __TwigTemplate_ca007623b1ffb1bdf7c83331c70a51f9ad160e796bbb6ea035857bbe91c
             </div>
         </div>
         <div class=\"container-button-cv col-sm-12 col-md-6 col-lg-6 col-xl-6 px-0 py-0 mx-0 my-0\">
-            <a href=\"../public/docs/CV-Laurent-Lesage.pdf\" class='button-download' target='blank'>Télécharger CV</a>
+            <a href=\"/public/docs/CV-Laurent-Lesage.pdf\" class='button-download' target='blank'>Télécharger CV</a>
         </div>
     </div>
 </div>
