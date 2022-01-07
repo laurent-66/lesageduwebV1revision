@@ -1,8 +1,6 @@
 
 /*MENU */
 
-
-
 .navbar
 {
     padding:0px;
@@ -66,7 +64,6 @@ a.nav-link.active,a.nav-link
 } */
 
 
-
 .navbar-toggler-icon
 {
     border: white;
@@ -89,7 +86,7 @@ a.nav-link.active,a.nav-link
     padding: 0px 15px;
 }
 
-/*menu écran inférieur à 576px */
+/*menu écran inférieur à 768px */
 
 @media screen and (max-width: 768px)
 {
@@ -100,9 +97,6 @@ a.nav-link.active,a.nav-link
         justify-content: space-between;
         align-items: center;
     }
-
-
-
 
     #buttonMenu
     {
@@ -155,15 +149,12 @@ a.nav-link.active,a.nav-link
     {
         display: contents;
     }
-
 }
 
 
+/* menu écran a partir 768px */
 
-
-/*menu écran minimum à 768px */
-
-@media screen and (min-width: 768px)
+@media screen and (min-width: 768px) 
 {
 
     .navbar-brand
@@ -175,4 +166,5 @@ a.nav-link.active,a.nav-link
     {
         display: none;
     }
+
 }

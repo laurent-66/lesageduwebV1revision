@@ -36,8 +36,8 @@ class __TwigTemplate_d92a759828486a6c76e74acdeba44d818b47dc2bac1206d0117630c46e1
         // line 1
         echo "<header class=\"sticky-top\">
     <nav class=\"navbar navbar-dark navbar-expand-md bg-dark m-0 p-0\">
-        <div class=\"container-fluid mx-0 px-0 menunavigation \">
-            <div class=\"navbar-brand m-3 \">Menu</div>
+        <div class=\"container-fluid mx-0 pl-3 pr-2 menunavigation\">
+            <div class=\"navbar-brand m-3\">Menu</div>
             <div id=\"buttonMenu\">
                 <button class=\"d-block navbar-toggler m-3 \" data-toggle=\"collapse\" data-target=\"#navbarText\">
                     <span class=\"navbar-toggler-icon\"></span>
@@ -118,8 +118,8 @@ class __TwigTemplate_d92a759828486a6c76e74acdeba44d818b47dc2bac1206d0117630c46e1
     {
         return new Source("<header class=\"sticky-top\">
     <nav class=\"navbar navbar-dark navbar-expand-md bg-dark m-0 p-0\">
-        <div class=\"container-fluid mx-0 px-0 menunavigation \">
-            <div class=\"navbar-brand m-3 \">Menu</div>
+        <div class=\"container-fluid mx-0 pl-3 pr-2 menunavigation\">
+            <div class=\"navbar-brand m-3\">Menu</div>
             <div id=\"buttonMenu\">
                 <button class=\"d-block navbar-toggler m-3 \" data-toggle=\"collapse\" data-target=\"#navbarText\">
                     <span class=\"navbar-toggler-icon\"></span>
